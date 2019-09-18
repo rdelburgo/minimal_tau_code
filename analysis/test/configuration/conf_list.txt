@@ -1,72 +1,165 @@
 Conf		DM_0		DM_1		DM_10		Eta_min		Eta_max		Pt_min		Pt_max   Dt_cut   Dz_cut   Description
-0		O       	O       	O       	0		2.4		5		20	 25	  0.2	   # No timing all dm all eta range
-1		O       	X       	X       	0		2.4		5		20	 25	  0.2	   # No timing dm 0 all eta range
-2		X       	O       	X       	0		2.4		5		20	 25	  0.2	   # No timing dm 1 all eta range
-3		X       	X       	O       	0		2.4		5		20	 25	  0.2	   # No timing dm 10 all eta range
-4		O       	O       	O       	0		2.4		5		20	 0.03	  0.2	   # timing 30 ps all dm all eta range
-5		O       	X       	X       	0		2.4		5		20	 0.03	  0.2	   # timing 30 ps dm 0 all eta range
-6		X       	O       	X       	0		2.4		5		20	 0.03	  0.2	   # timing 30 ps dm 1 all eta range
-7		X       	X       	O       	0		2.4		5		20	 0.03	  0.2	   # timing 30 ps dm 10 all eta range
-8		O       	O       	O       	0		1.5		5		20	 25	  0.2	   # Same as conf 0, but for barrel
-9		O       	X       	X       	0		1.5		5		20	 25	  0.2	   # Same as conf 1, but for barrel
-10		X       	O       	X       	0		1.5		5		20	 25	  0.2	   # Same as conf 2, but for barrel
-11		X       	X       	O       	0		1.5		5		20	 25	  0.2	   # Same as conf 3, but for barrel
-12		O       	O       	O       	0		1.5		5		20	 0.03	  0.2	   # Same as conf 4, but for barrel
-13		O       	X       	X       	0		1.5		5		20	 0.03	  0.2	   # Same as conf 5, but for barrel
-14		X       	O       	X       	0		1.5		5		20	 0.03	  0.2	   # Same as conf 6, but for barrel
-15		X       	X       	O       	0		1.5		5		20	 0.03	  0.2	   # Same as conf 7, but for barrel
-16		O       	O       	O       	1.5		2.4		5		20	 25	  0.2	   # Same as conf 0, but for end-cap
-17		O       	X       	X       	1.5		2.4		5		20	 25	  0.2	   # Same as conf 1, but for end-cap
-18		X       	O       	X       	1.5		2.4		5		20	 25	  0.2	   # Same as conf 2, but for end-cap
-19		X       	X       	O       	1.5		2.4		5		20	 25	  0.2	   # Same as conf 3, but for end-cap
-20		O       	O       	O       	1.5		2.4		5		20	 0.03	  0.2	   # Same as conf 4, but for end-cap
-21		O       	X       	X       	1.5		2.4		5		20	 0.03	  0.2	   # Same as conf 5, but for end-cap
-22		X       	O       	X       	1.5		2.4		5		20	 0.03	  0.2	   # Same as conf 6, but for end-cap
-23		X       	X       	O       	1.5		2.4		5		20	 0.03	  0.2	   # Same as conf 7, but for end-cap
-24		O       	O       	O       	0		2.4		5		20	 0.05	  0.2	   # timing 50 ps all dm all eta range
-25		O       	X       	X       	0		2.4		5		20	 0.05	  0.2	   # timing 50 ps dm 0 all eta range
-26		X       	O       	X       	0		2.4		5		20	 0.05	  0.2	   # timing 50 ps dm 1 all eta range
-27		X       	X       	O       	0		2.4		5		20	 0.05	  0.2	   # timing 50 ps dm 10 all eta range
-28		O       	O       	O       	0		2.4		5		20	 0.07	  0.2	   # timing 70 ps all dm all eta range
-29		O       	X       	X       	0		2.4		5		20	 0.07	  0.2	   # timing 70 ps dm 0 all eta range
-30		X       	O       	X       	0		2.4		5		20	 0.07	  0.2	   # timing 70 ps dm 1 all eta range
-31		X       	X       	O       	0		2.4		5		20	 0.07	  0.2	   # timing 70 ps dm 10 all eta range
-32		O       	O       	O       	0		1.5		5		20	 0.05	  0.2	   # Same as conf 24, but for barrel
-33		O       	X       	X       	0		1.5		5		20	 0.05	  0.2	   # Same as conf 25, but for barrel
-34		X       	O       	X       	0		1.5		5		20	 0.05	  0.2	   # Same as conf 26, but for barrel
-35		X       	X       	O       	0		1.5		5		20	 0.05	  0.2	   # Same as conf 27, but for barrel
-36		O       	O       	O       	0		1.5		5		20	 0.07	  0.2	   # Same as conf 28, but for barrel
-37		O       	X       	X       	0		1.5		5		20	 0.07	  0.2	   # Same as conf 29, but for barrel
-38		X       	O       	X       	0		1.5		5		20	 0.07	  0.2	   # Same as conf 30, but for barrel
-39		X       	X       	O       	0		1.5		5		20	 0.07	  0.2	   # Same as conf 31, but for barrel
-40		O       	O       	O       	1.5		2.4		5		20	 0.05	  0.2	   # Same as conf 24, but for end-cap
-41		O       	X       	X       	1.5		2.4		5		20	 0.05	  0.2	   # Same as conf 25, but for end-cap
-42		X       	O       	X       	1.5		2.4		5		20	 0.05	  0.2	   # Same as conf 26 but for end-cap
-43		X       	X       	O       	1.5		2.4		5		20	 0.05	  0.2	   # Same as conf 27, but for end-cap
-44		O       	O       	O       	1.5		2.4		5		20	 0.07	  0.2	   # Same as conf 28, but for end-cap
-45		O       	X       	X       	1.5		2.4		5		20	 0.07	  0.2	   # Same as conf 29, but for end-cap
-46		X       	O       	X       	1.5		2.4		5		20	 0.07	  0.2	   # Same as conf 30, but for end-cap
-47		X       	X       	O       	1.5		2.4		5		20	 0.07	  0.2	   # Same as conf 31, but for end-cap
+0		O       	O       	O       	0		2.4		5		40	 25	  0.2	   # No timing all dm all eta range
+1		O       	X       	X       	0		2.4		5		40	 25	  0.2	   # No timing dm 0 all eta range
+2		X       	O       	X       	0		2.4		5		40	 25	  0.2	   # No timing dm 1 all eta range
+3		X       	X       	O       	0		2.4		5		40	 25	  0.2	   # No timing dm 10 all eta range
+4		O       	O       	O       	0		2.4		5		40	 0.03	  0.2	   # timing 30 ps all dm all eta range
+5		O       	X       	X       	0		2.4		5		40	 0.03	  0.2	   # timing 30 ps dm 0 all eta range
+6		X       	O       	X       	0		2.4		5		40	 0.03	  0.2	   # timing 30 ps dm 1 all eta range
+7		X       	X       	O       	0		2.4		5		40	 0.03	  0.2	   # timing 30 ps dm 10 all eta range
+8		O       	O       	O       	0		1.5		5		40	 25	  0.2	   # Same as conf 0, but for barrel
+9		O       	X       	X       	0		1.5		5		40	 25	  0.2	   # Same as conf 1, but for barrel
+10		X       	O       	X       	0		1.5		5		40	 25	  0.2	   # Same as conf 2, but for barrel
+11		X       	X       	O       	0		1.5		5		40	 25	  0.2	   # Same as conf 3, but for barrel
+12		O       	O       	O       	0		1.5		5		40	 0.03	  0.2	   # Same as conf 4, but for barrel
+13		O       	X       	X       	0		1.5		5		40	 0.03	  0.2	   # Same as conf 5, but for barrel
+14		X       	O       	X       	0		1.5		5		40	 0.03	  0.2	   # Same as conf 6, but for barrel
+15		X       	X       	O       	0		1.5		5		40	 0.03	  0.2	   # Same as conf 7, but for barrel
+16		O       	O       	O       	1.5		2.4		5		40	 25	  0.2	   # Same as conf 0, but for end-cap
+17		O       	X       	X       	1.5		2.4		5		40	 25	  0.2	   # Same as conf 1, but for end-cap
+18		X       	O       	X       	1.5		2.4		5		40	 25	  0.2	   # Same as conf 2, but for end-cap
+19		X       	X       	O       	1.5		2.4		5		40	 25	  0.2	   # Same as conf 3, but for end-cap
+20		O       	O       	O       	1.5		2.4		5		40	 0.03	  0.2	   # Same as conf 4, but for end-cap
+21		O       	X       	X       	1.5		2.4		5		40	 0.03	  0.2	   # Same as conf 5, but for end-cap
+22		X       	O       	X       	1.5		2.4		5		40	 0.03	  0.2	   # Same as conf 6, but for end-cap
+23		X       	X       	O       	1.5		2.4		5		40	 0.03	  0.2	   # Same as conf 7, but for end-cap
+24		O       	O       	O       	0		2.4		5		40	 0.05	  0.2	   # timing 50 ps all dm all eta range
+25		O       	X       	X       	0		2.4		5		40	 0.05	  0.2	   # timing 50 ps dm 0 all eta range
+26		X       	O       	X       	0		2.4		5		40	 0.05	  0.2	   # timing 50 ps dm 1 all eta range
+27		X       	X       	O       	0		2.4		5		40	 0.05	  0.2	   # timing 50 ps dm 10 all eta range
+28		O       	O       	O       	0		2.4		5		40	 0.07	  0.2	   # timing 70 ps all dm all eta range
+29		O       	X       	X       	0		2.4		5		40	 0.07	  0.2	   # timing 70 ps dm 0 all eta range
+30		X       	O       	X       	0		2.4		5		40	 0.07	  0.2	   # timing 70 ps dm 1 all eta range
+31		X       	X       	O       	0		2.4		5		40	 0.07	  0.2	   # timing 70 ps dm 10 all eta range
+32		O       	O       	O       	0		1.5		5		40	 0.05	  0.2	   # Same as conf 24, but for barrel
+33		O       	X       	X       	0		1.5		5		40	 0.05	  0.2	   # Same as conf 25, but for barrel
+34		X       	O       	X       	0		1.5		5		40	 0.05	  0.2	   # Same as conf 26, but for barrel
+35		X       	X       	O       	0		1.5		5		40	 0.05	  0.2	   # Same as conf 27, but for barrel
+36		O       	O       	O       	0		1.5		5		40	 0.07	  0.2	   # Same as conf 28, but for barrel
+37		O       	X       	X       	0		1.5		5		40	 0.07	  0.2	   # Same as conf 29, but for barrel
+38		X       	O       	X       	0		1.5		5		40	 0.07	  0.2	   # Same as conf 30, but for barrel
+39		X       	X       	O       	0		1.5		5		40	 0.07	  0.2	   # Same as conf 31, but for barrel
+40		O       	O       	O       	1.5		2.4		5		40	 0.05	  0.2	   # Same as conf 24, but for end-cap
+41		O       	X       	X       	1.5		2.4		5		40	 0.05	  0.2	   # Same as conf 25, but for end-cap
+42		X       	O       	X       	1.5		2.4		5		40	 0.05	  0.2	   # Same as conf 26 but for end-cap
+43		X       	X       	O       	1.5		2.4		5		40	 0.05	  0.2	   # Same as conf 27, but for end-cap
+44		O       	O       	O       	1.5		2.4		5		40	 0.07	  0.2	   # Same as conf 28, but for end-cap
+45		O       	X       	X       	1.5		2.4		5		40	 0.07	  0.2	   # Same as conf 29, but for end-cap
+46		X       	O       	X       	1.5		2.4		5		40	 0.07	  0.2	   # Same as conf 30, but for end-cap
+47		X       	X       	O       	1.5		2.4		5		40	 0.07	  0.2	   # Same as conf 31, but for end-cap
 Conf    	DM_0    	DM_1    	DM_10   	Eta_min 	Eta_max 	Pt_min  	Pt_max   Dt_cut   Dz_cut   Description
-48		O       	O       	O       	0		2.4		20		1000	 25	  0.2	   # No timing all dm all eta range
-49		O       	X       	X       	0		2.4		20		1000	 25	  0.2	   # No timing dm 0 all eta range
-50		X       	O       	X       	0		2.4		20		1000	 25	  0.2	   # No timing dm 1 all eta range
-51		X       	X       	O       	0		2.4		20		1000	 25	  0.2	   # No timing dm 10 all eta range
-52		O       	O       	O       	0		2.4		20		1000	 0.03	  0.2	   # timing 30 ps all dm all eta range
-53		O       	X       	X       	0		2.4		20		1000	 0.03	  0.2	   # timing 30 ps dm 0 all eta range
-54		X       	O       	X       	0		2.4		20		1000	 0.03	  0.2	   # timing 30 ps dm 1 all eta range
-55		X       	X       	O       	0		2.4		20		1000	 0.03	  0.2	   # timing 30 ps dm 10 all eta range
-56		O       	O       	O       	0		1.5		20		1000	 25	  0.2	   # Same as conf 0, but for barrel
-57		O       	X       	X       	0		1.5		20		1000	 25	  0.2	   # Same as conf 1, but for barrel
-58		X       	O       	X       	0		1.5		20		1000	 25	  0.2	   # Same as conf 2, but for barrel
-59		X       	X       	O       	0		1.5		20		1000	 25	  0.2	   # Same as conf 3, but for barrel
-60		O       	O       	O       	0		1.5		20		1000	 0.03	  0.2	   # Same as conf 4, but for barrel
-61		O       	X       	X       	0		1.5		20		1000	 0.03	  0.2	   # Same as conf 5, but for barrel
-62		X       	O       	X       	0		1.5		20		1000	 0.03	  0.2	   # Same as conf 6, but for barrel
-63		X       	X       	O       	0		1.5		20		1000	 0.03	  0.2	   # Same as conf 7, but for barrel
-64		O       	O       	O       	1.5		2.4		20		1000	 25	  0.2	   # Same as conf 0, but for end-cap
-65		O       	X       	X       	1.5		2.4		20		1000	 25	  0.2	   # Same as conf 1, but for end-cap
-66		X       	O       	X       	1.5		2.4		20		1000	 25	  0.2	   # Same as conf 2, but for end-cap
-67		X       	X       	O       	1.5		2.4		20		1000	 25	  0.2	   # Same as conf 3, but for end-cap
-68		O       	O       	O       	1.5		2.4		20		1000	 0.03	  0.2	   # Same as conf 4, but for end-cap
-69		O       	X       	X       	1.5		2.4		20		1000	 0.03	  0.2	   # Same as conf 5, but for end-cap
+48		O       	O       	O       	0		2.4		40		1000	 25	  0.2	   # No timing all dm all eta range
+49		O       	X       	X       	0		2.4		40		1000	 25	  0.2	   # No timing dm 0 all eta range
+50		X       	O       	X       	0		2.4		40		1000	 25	  0.2	   # No timing dm 1 all eta range
+51		X       	X       	O       	0		2.4		40		1000	 25	  0.2	   # No timing dm 10 all eta range
+52		O       	O       	O       	0		2.4		40		1000	 0.03	  0.2	   # timing 30 ps all dm all eta range
+53		O       	X       	X       	0		2.4		40		1000	 0.03	  0.2	   # timing 30 ps dm 0 all eta range
+54		X       	O       	X       	0		2.4		40		1000	 0.03	  0.2	   # timing 30 ps dm 1 all eta range
+55		X       	X       	O       	0		2.4		40		1000	 0.03	  0.2	   # timing 30 ps dm 10 all eta range
+56		O       	O       	O       	0		1.5		40		1000	 25	  0.2	   # Same as conf 0, but for barrel
+57		O       	X       	X       	0		1.5		40		1000	 25	  0.2	   # Same as conf 1, but for barrel
+58		X       	O       	X       	0		1.5		40		1000	 25	  0.2	   # Same as conf 2, but for barrel
+59		X       	X       	O       	0		1.5		40		1000	 25	  0.2	   # Same as conf 3, but for barrel
+60		O       	O       	O       	0		1.5		40		1000	 0.03	  0.2	   # Same as conf 4, but for barrel
+61		O       	X       	X       	0		1.5		40		1000	 0.03	  0.2	   # Same as conf 5, but for barrel
+62		X       	O       	X       	0		1.5		40		1000	 0.03	  0.2	   # Same as conf 6, but for barrel
+63		X       	X       	O       	0		1.5		40		1000	 0.03	  0.2	   # Same as conf 7, but for barrel
+64		O       	O       	O       	1.5		2.4		40		1000	 25	  0.2	   # Same as conf 0, but for end-cap
+65		O       	X       	X       	1.5		2.4		40		1000	 25	  0.2	   # Same as conf 1, but for end-cap
+66		X       	O       	X       	1.5		2.4		40		1000	 25	  0.2	   # Same as conf 2, but for end-cap
+67		X       	X       	O       	1.5		2.4		40		1000	 25	  0.2	   # Same as conf 3, but for end-cap
+68		O       	O       	O       	1.5		2.4		40		1000	 0.03	  0.2	   # Same as conf 4, but for end-cap
+69		O       	X       	X       	1.5		2.4		40		1000	 0.03	  0.2	   # Same as conf 5, but for end-cap
+70		X       	O       	X       	1.5		2.4		40		1000	 0.03	  0.2	   # Same as conf 6, but for end-cap
+71		X       	X       	O       	1.5		2.4		40		1000	 0.03	  0.2	   # Same as conf 7, but for end-cap
+72		O       	O       	O       	0		2.4		40		1000	 0.05	  0.2	   # timing 50 ps all dm all eta range
+73		O       	X       	X       	0		2.4		40		1000	 0.05	  0.2	   # timing 50 ps dm 0 all eta range
+74		X       	O       	X       	0		2.4		40		1000	 0.05	  0.2	   # timing 50 ps dm 1 all eta range
+75		X       	X       	O       	0		2.4		40		1000	 0.05	  0.2	   # timing 50 ps dm 10 all eta range
+76		O       	O       	O       	0		2.4		40		1000	 0.07	  0.2	   # timing 70 ps all dm all eta range
+77		O       	X       	X       	0		2.4		40		1000	 0.07	  0.2	   # timing 70 ps dm 0 all eta range
+78		X       	O       	X       	0		2.4		40		1000	 0.07	  0.2	   # timing 70 ps dm 1 all eta range
+79		X       	X       	O       	0		2.4		40		1000	 0.07	  0.2	   # timing 70 ps dm 10 all eta range
+80		O       	O       	O       	0		1.5		40		1000	 0.05	  0.2	   # Same as conf 24, but for barrel
+81		O       	X       	X       	0		1.5		40		1000	 0.05	  0.2	   # Same as conf 25, but for barrel
+82		X       	O       	X       	0		1.5		40		1000	 0.05	  0.2	   # Same as conf 26, but for barrel
+83		X       	X       	O       	0		1.5		40		1000	 0.05	  0.2	   # Same as conf 27, but for barrel
+84		O       	O       	O       	0		1.5		40		1000	 0.07	  0.2	   # Same as conf 28, but for barrel
+85		O       	X       	X       	0		1.5		40		1000	 0.07	  0.2	   # Same as conf 29, but for barrel
+86		X       	O       	X       	0		1.5		40		1000	 0.07	  0.2	   # Same as conf 30, but for barrel
+87		X       	X       	O       	0		1.5		40		1000	 0.07	  0.2	   # Same as conf 31, but for barrel
+88		O       	O       	O       	1.5		2.4		40		1000	 0.05	  0.2	   # Same as conf 24, but for end-cap
+89		O       	X       	X       	1.5		2.4		40		1000	 0.05	  0.2	   # Same as conf 25, but for end-cap
+90		X       	O       	X       	1.5		2.4		40		1000	 0.05	  0.2	   # Same as conf 26 but for end-cap
+91		X       	X       	O       	1.5		2.4		40		1000	 0.05	  0.2	   # Same as conf 27, but for end-cap
+92		O       	O       	O       	1.5		2.4		40		1000	 0.07	  0.2	   # Same as conf 28, but for end-cap
+93		O       	X       	X       	1.5		2.4		40		1000	 0.07	  0.2	   # Same as conf 29, but for end-cap
+94		X       	O       	X       	1.5		2.4		40		1000	 0.07	  0.2	   # Same as conf 30, but for end-cap
+95		X       	X       	O       	1.5		2.4		40		1000	 0.07	  0.2	   # Same as conf 31, but for end-cap
+Conf    	DM_0    	DM_1    	DM_10   	Eta_min 	Eta_max 	Pt_min  	Pt_max   Dt_cut   Dz_cut   Description
+96		O       	O       	O       	0		2.4		5		1000	 25	  0.2	   # No timing all dm all eta range
+97		O       	X       	X       	0		2.4		5		1000	 25	  0.2	   # No timing dm 0 all eta range
+98		X       	O       	X       	0		2.4		5		1000	 25	  0.2	   # No timing dm 1 all eta range
+99		X       	X       	O       	0		2.4		5		1000	 25	  0.2	   # No timing dm 10 all eta range
+100		O       	O       	O       	0		2.4		5		1000	 0.03	  0.2	   # timing 30 ps all dm all eta range
+101		O       	X       	X       	0		2.4		5		1000	 0.03	  0.2	   # timing 30 ps dm 0 all eta range
+102		X       	O       	X       	0		2.4		5		1000	 0.03	  0.2	   # timing 30 ps dm 1 all eta range
+103		X       	X       	O       	0		2.4		5		1000	 0.03	  0.2	   # timing 30 ps dm 10 all eta range
+104		O       	O       	O       	0		1.5		5		1000	 25	  0.2	   # Same as conf 0, but for barrel
+105		O       	X       	X       	0		1.5		5		1000	 25	  0.2	   # Same as conf 1, but for barrel
+106		X       	O       	X       	0		1.5		5		1000	 25	  0.2	   # Same as conf 2, but for barrel
+107		X       	X       	O       	0		1.5		5		1000	 25	  0.2	   # Same as conf 3, but for barrel
+108		O       	O       	O       	0		1.5		5		1000	 0.03	  0.2	   # Same as conf 4, but for barrel
+109		O       	X       	X       	0		1.5		5		1000	 0.03	  0.2	   # Same as conf 5, but for barrel
+110		X       	O       	X       	0		1.5		5		1000	 0.03	  0.2	   # Same as conf 6, but for barrel
+111		X       	X       	O       	0		1.5		5		1000	 0.03	  0.2	   # Same as conf 7, but for barrel
+112		O       	O       	O       	1.5		2.4		5		1000	 25	  0.2	   # Same as conf 0, but for end-cap
+113		O       	X       	X       	1.5		2.4		5		1000	 25	  0.2	   # Same as conf 1, but for end-cap
+114		X       	O       	X       	1.5		2.4		5		1000	 25	  0.2	   # Same as conf 2, but for end-cap
+115		X       	X       	O       	1.5		2.4		5		1000	 25	  0.2	   # Same as conf 3, but for end-cap
+116		O       	O       	O       	1.5		2.4		5		1000	 0.03	  0.2	   # Same as conf 4, but for end-cap
+117		O       	X       	X       	1.5		2.4		5		1000	 0.03	  0.2	   # Same as conf 5, but for end-cap
+118		X       	O       	X       	1.5		2.4		5		1000	 0.03	  0.2	   # Same as conf 6, but for end-cap
+119		X       	X       	O       	1.5		2.4		5		1000	 0.03	  0.2	   # Same as conf 7, but for end-cap
+120		O       	O       	O       	0		2.4		5		1000	 0.05	  0.2	   # timing 50 ps all dm all eta range
+121		O       	X       	X       	0		2.4		5		1000	 0.05	  0.2	   # timing 50 ps dm 0 all eta range
+122		X       	O       	X       	0		2.4		5		1000	 0.05	  0.2	   # timing 50 ps dm 1 all eta range
+123		X       	X       	O       	0		2.4		5		1000	 0.05	  0.2	   # timing 50 ps dm 10 all eta range
+124		O       	O       	O       	0		2.4		5		1000	 0.07	  0.2	   # timing 70 ps all dm all eta range
+125		O       	X       	X       	0		2.4		5		1000	 0.07	  0.2	   # timing 70 ps dm 0 all eta range
+126		X       	O       	X       	0		2.4		5		1000	 0.07	  0.2	   # timing 70 ps dm 1 all eta range
+127		X       	X       	O       	0		2.4		5		1000	 0.07	  0.2	   # timing 70 ps dm 10 all eta range
+128		O       	O       	O       	0		1.5		5		1000	 0.05	  0.2	   # Same as conf 24, but for barrel
+129		O       	X       	X       	0		1.5		5		1000	 0.05	  0.2	   # Same as conf 25, but for barrel
+130		X       	O       	X       	0		1.5		5		1000	 0.05	  0.2	   # Same as conf 26, but for barrel
+131		X       	X       	O       	0		1.5		5		1000	 0.05	  0.2	   # Same as conf 27, but for barrel
+132		O       	O       	O       	0		1.5		5		1000	 0.07	  0.2	   # Same as conf 28, but for barrel
+133		O       	X       	X       	0		1.5		5		1000	 0.07	  0.2	   # Same as conf 29, but for barrel
+134		X       	O       	X       	0		1.5		5		1000	 0.07	  0.2	   # Same as conf 30, but for barrel
+135		X       	X       	O       	0		1.5		5		1000	 0.07	  0.2	   # Same as conf 31, but for barrel
+136		O       	O       	O       	1.5		2.4		5		1000	 0.05	  0.2	   # Same as conf 24, but for end-cap
+137		O       	X       	X       	1.5		2.4		5		1000	 0.05	  0.2	   # Same as conf 25, but for end-cap
+138		X       	O       	X       	1.5		2.4		5		1000	 0.05	  0.2	   # Same as conf 26 but for end-cap
+139		X       	X       	O       	1.5		2.4		5		1000	 0.05	  0.2	   # Same as conf 27, but for end-cap
+140		O       	O       	O       	1.5		2.4		5		1000	 0.07	  0.2	   # Same as conf 28, but for end-cap
+141		O       	X       	X       	1.5		2.4		5		1000	 0.07	  0.2	   # Same as conf 29, but for end-cap
+142		X       	O       	X       	1.5		2.4		5		1000	 0.07	  0.2	   # Same as conf 30, but for end-cap
+143		X       	X       	O       	1.5		2.4		5		1000	 0.07	  0.2	   # Same as conf 31, but for end-cap
+Conf    	DM_0    	DM_1    	DM_10   	Eta_min 	Eta_max 	Pt_min  	Pt_max   Dt_cut   Dz_cut   Description
+144		O       	O       	O       	0		2.4		5		1000	 25	  0.5	   # No timing all dm all eta range
+145		O       	X       	X       	0		2.4		5		1000	 25	  0.5	   # No timing dm 0 all eta range
+146		X       	O       	X       	0		2.4		5		1000	 25	  0.5	   # No timing dm 1 all eta range
+147		X       	X       	O       	0		2.4		5		1000	 25	  0.5	   # No timing dm 10 all eta range
+148		O       	O       	O       	0		2.4		5		1000	 0.03	  0.5	   # timing 30 ps all dm all eta range
+149		O       	X       	X       	0		2.4		5		1000	 0.03	  0.5	   # timing 30 ps dm 0 all eta range
+150		X       	O       	X       	0		2.4		5		1000	 0.03	  0.5	   # timing 30 ps dm 1 all eta range
+151		X       	X       	O       	0		2.4		5		1000	 0.03	  0.5	   # timing 30 ps dm 10 all eta range
+152		O       	O       	O       	0		2.4		5		1000	 25	  2	   # No timing all dm all eta range
+153		O       	X       	X       	0		2.4		5		1000	 25	  2	   # No timing dm 0 all eta range
+154		X       	O       	X       	0		2.4		5		1000	 25	  2	   # No timing dm 1 all eta range
+155		X       	X       	O       	0		2.4		5		1000	 25	  2	   # No timing dm 10 all eta range
+156		O       	O       	O       	0		2.4		5		1000	 0.03	  2	   # timing 30 ps all dm all eta range
+157		O       	X       	X       	0		2.4		5		1000	 0.03	  2	   # timing 30 ps dm 0 all eta range
+158		X       	O       	X       	0		2.4		5		1000	 0.03	  2	   # timing 30 ps dm 1 all eta range
+159		X       	X       	O       	0		2.4		5		1000	 0.03	  2	   # timing 30 ps dm 10 all eta range
+
