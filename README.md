@@ -35,7 +35,10 @@ the time information is retrieved in the lines:
 pat::PackedCandidate const* tempIsoCand = dynamic_cast<pat::PackedCandidate const*>(cand.get());
   double time = timetempIsoCand->dtime(0);
 ```
+more info available at [cmssdt lxr](https://cmssdt.cern.ch/lxr/source/DataFormats/PatCandidates/interface/PackedCandidate.h?v=CMSSW_9_3_3)
 
-this is the absolute time of arrival corrected by the time of flight ( so the time at which che particle is created)
-you want to compare this time with the time of the vertex, or the leading pt tau signal candidate, is up to you
-if the time is 0 it means the particle has no time information ( it was neutral, out of acceptance or the timig layer was inefficient)
+* time and dtime had always the same value in the miniAOD that I used
+* this is the absolute time of arrival corrected by the time of flight ( so the time at which che particle is created)
+* you want to compare this time with the time of the vertex, or the leading pt tau signal candidate, is up to you
+
+* **if the time is 0** it means the particle has no time information ( it was neutral, out of acceptance or the timing layer was inefficient)
